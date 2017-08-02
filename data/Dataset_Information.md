@@ -9,6 +9,9 @@ We followed the markup instructions provided by Schneider et al. (2015) to join 
 
 All Verb + Noun and Verb + Particle expressions (with or without gaps and irregardless of whether they were annotated as MWE or not) are considered for evaluating the agreement between the annotators. The Kappa  inter-annotator  agreement is 0.7864. Furthermore, we have resolved the annotation differences by employing a third annotator to decide in cases of disagreement.
 
-In order to prepare sequences to be trained by the  CRF  model,  we  
-
-extract  from  the  corpus  all patterns of Verb + Noun and Verb + Prepositions(and  Verb  +  a  list  of  other  particles  such  asup,down,  over,  etc)  with  at  most  three  words  be-tween the components.   MWEs are tagged
+In order to prepare sequences to be trained by the  CRF  model,  we change all the markup to numbers as follows:
+0: for the tokens that does not match the pattern of Verb + Noun or Verb + Particle
+1: for the tokens that match the pattern of Verb + Noun or Verb + Particle, but are not tagged as MWEs
+2: for the tokens that match the pattern of Verb + Noun or Verb + Particle, and are tagged as/in the beginning of MWEs
+3: for the tokens that match the pattern of Verb + Noun or Verb + Particle, and are tagged as/in the middle of MWEs 
+4: for the tokens that match the pattern of Verb + Noun or Verb + Particle, and are tagged as/at the end of MWEs
