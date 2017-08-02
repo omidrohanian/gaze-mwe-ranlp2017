@@ -11,8 +11,8 @@ All Verb + Noun and Verb + Particle expressions (with or without gaps and irrega
 
 In order to prepare sequences to be trained by the CRF model, we changed all the markup to numbers as follows:
 
-<p>0: for the tokens that do not match the pattern of Verb + Noun or Verb + Particle</p>
-<p>1: for the tokens that match the pattern of Verb + Noun or Verb + Particle, but are not tagged as MWEs</p>
-<p>2: for the tokens that match the pattern of Verb + Noun or Verb + Particle, and are tagged as the beginning of MWEs</p>
-<p>3: for the tokens that match the pattern of Verb + Noun or Verb + Particle, and are tagged as the middle of MWEs</p> 
-<p>4: for the tokens that match the pattern of Verb + Noun or Verb + Particle, and are tagged as the end of MWEs</p>
+* 0: for the tokens that do not match the pattern of Verb + Noun or Verb + Particle
+* 1: for the tokens that match the pattern of Verb + Noun or Verb + Particle, but are not tagged as MWEs
+* 2: for the tokens that match the pattern of Verb + Noun or Verb + Particle, and are tagged as the beginning of MWEs
+* 3: for the tokens that match the pattern of Verb + Noun or Verb + Particle, and are tagged as the middle of MWEs 
+* 4: for the tokens that match the pattern of Verb + Noun or Verb + Particle, and are tagged as the end of MWEs
