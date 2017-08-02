@@ -4,4 +4,4 @@ This repository contains the source code, data, and analyses behind the paper "U
 
 #### Data
 
-We have annotated the text used in [GECO eye tracking corpus](https://figshare.com/articles/new_fileset/1482031) with regards to occurrences of Verb + Noun and Verb + Particle [multiword expressions (MWEs)](https://en.wikipedia.org/wiki/Multiword_expression). 
+We have annotated the text used in [GECO eye tracking corpus](https://figshare.com/articles/new_fileset/1482031) with regards to occurrences of Verb+Noun and Verb+Particle [multiword expressions (MWEs)](https://en.wikipedia.org/wiki/Multiword_expression). 
