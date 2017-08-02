@@ -16,3 +16,5 @@ In order to prepare sequences to be trained by the CRF model, we changed all the
 * 2: for tokens that match the pattern of Verb+Noun or Verb+Particle, and are tagged as the beginning of MWEs
 * 3: for tokens that match the pattern of Verb+Noun or Verb+Particle, and are tagged as the middle of MWEs 
 * 4: for tokens that match the pattern of Verb+Noun or Verb+Particle, and are tagged as the end of MWEs
+
+The file Labels.txt includes each token id (WORD_ID in GECO) and its tag number, each in one line and tab separated.
