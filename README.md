@@ -4,6 +4,8 @@ This repository contains the source code, data, and analyses behind the paper "U
 
 #### Data
 
-We have annotated the text used in [GECO eye tracking corpus](https://figshare.com/articles/new_fileset/1482031) with regards to occurrences of Verb+Noun and Verb+Particle [multiword expressions (MWEs)](https://en.wikipedia.org/wiki/Multiword_expression). For details about the deta, please refer to the information file in the data folder.
+We have annotated the text used in [GECO eye tracking corpus](https://figshare.com/articles/new_fileset/1482031) with regards to occurrences of Verb+Noun and Verb+Particle [multiword expressions (MWEs)](https://en.wikipedia.org/wiki/Multiword_expression). For details about the data, please refer to the information file in the data folder.
 
+#### Methodology 
 
+We used the structured prediction model [CRF](https://en.wikipedia.org/wiki/Conditional_random_field) to label the sequences according to the classes defined in the tagged dataset. 
