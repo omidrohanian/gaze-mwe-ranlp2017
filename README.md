@@ -1,6 +1,6 @@
 ### Prediction of multiword expressions using eye tracking data
 
-This repository contains the source code, data, and analyses behind the paper "Using Gaze Data to Predict Multiword Expressions".
+This repository contains the source code, data, and analyses behind the paper [Using Gaze Data to Predict Multiword Expressions](http://www.acl-bg.org/proceedings/2017/RANLP%202017/pdf/RANLP078.pdf).
 
 #### Data
 
